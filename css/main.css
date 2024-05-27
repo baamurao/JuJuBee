@@ -2036,7 +2036,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: #9667E0;
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -2079,11 +2079,11 @@ input, select, textarea {
 
 			#nav a:hover {
 				color: #fff !important;
-				background: #383838;
+				background: #9667E0;
 			}
 
 			#nav a.active {
-				background: #484848;
+				background: #9667E0;
 			}
 
 				#nav a.active:before {
@@ -2095,7 +2095,7 @@ input, select, textarea {
 					margin-left: -0.75em;
 					border-left: solid 0.75em transparent;
 					border-right: solid 0.75em transparent;
-					border-top: solid 0.6em #282828;
+					border-top: solid 0.6em #9667E0;
 				}
 
 /* Articles */

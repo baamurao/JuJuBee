@@ -10,6 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	</head>
 	<body class="is-preload">
 
@@ -30,7 +33,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+							<img src="images/icon.png" alt="" />
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
@@ -49,40 +52,37 @@
 			</article>
 
 		<!-- Overview -->
-			<article id="overview" class="wrapper style2">
+			<article id="overview" class="wrapper style5">
 				<div class="container">
 					<header>
 						<h2>Here's an overview of our project.</h2>
 					</header>
 					<div class="row aln-center">
-						<div class="col-4 col-6-medium col-12-small">
+						<div class="col-5 col-6-medium col-12-small">
 							<section class="box style1">
 								<span class="icon featured fa-comments"></span>
 								<h3>Motivation</h3>
 								<p>Price increase on food, transportation, rent, and other living costs are inevitable. However, it is hard for citizens to keep up with these increases when the same isn't happening to their income. This research aims investigate whether there is injustice in our economic state.</p>
 							</section>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
+						<div class="col-5 col-6-medium col-12-small">
 							<section class="box style1">
-								<span class="icon solid featured fa-camera-retro"></span>
 								<h3>Problem</h3>
 								<p><b>Research Question: </b> What is the relationship between the cost of living and wages of Filipinos.<br>
 								<b>Secondary Research Question: </b>What should be the minimum wage based on current cost of living?
 								</p>
 							</section>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
+						<div class="col-5 col-6-medium col-12-small">
 							<section class="box style1">
-								<span class="icon solid featured fa-camera-retro"></span>
 								<h3>Hypotheses</h3>
 								<p><b>Null Hypothesis: </b>The minimum wage is enough to cover the cost of living in the Philippines.<br>
 								<b>Alternative Hypothesis: </b>The minimum wage is not enough to cover the cost of living in the Philippines.
 								</p>
 							</section>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
+						<div class="col-5 col-6-medium col-12-small">
 							<section class="box style1">
-								<span class="icon featured fa-thumbs-up"></span>
 								<h3>Solution</h3>
 								<p>This research will analyze the cost of living of Filipinos by looking at the poverty threshold and compare it to the minimum wage in the Philippines.</p>
 							</section>
@@ -115,31 +115,36 @@
 			</article>
 
 			<!-- Methods -->
-			<article id="methods" class="wrapper style3">
+			<article id="methods" class="wrapper style5">
 				<div class="container">
 					<header>
-						<h2>Let's talk about our data science methodology.</h2>
-						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
+						<h2>We explored the data.</h2>
+						<p>Exploratory Data Analysis</p>
 					</header>
 					<div class="row">
 						<div class="col-6 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="#">Data Preprocessing</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<h3><a href="https://docs.google.com/spreadsheets/d/1CWg2RfEHV1Rs0nuJmmUVyG3hmvNTifCratPFqJOVXCk/edit?usp=sharing">Data Preprocessing</a></h3>
+								<p>	In order to make our data consistend, we did some scaling on the poverty and food threshold. Instead of using the data directly from PSA, which was in pesos per month,we divided it by 30 to make it per day. This would match our mimimum wage data, which is also per day. In addition to this, since our minimum wage data is taken per region, we took the average of the poverty threshold of each provinces per region. This gave us a poverty threshold per region that we can compare with the minimum wage. </p>
 							</article>
 						</div>
 						<div class="col-6 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Machine Learning</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<a href="#" class="image featured"><a href="https://colab.research.google.com/drive/1kysyAlKfrIL8r_mzMQlfRE-n6lggQeAA?usp=sharing"><img src="images/Visualization.png" alt="" /></a>
+								<h3><a href="https://colab.research.google.com/drive/1kysyAlKfrIL8r_mzMQlfRE-n6lggQeAA?usp=sharing">Visualization</a></h3>
+								<p>We used python to visualize our data. Explore our graphs here.</p>
+							</article>
+						</div>
+						<div class="col-9 col-6-medium col-12-small">
+							<article class="box style2">
+								<h3>Hypothesis Testing</h3>
+								<p><b>Null Hypothesis: </b>The minimum wage is enough to cover the cost of living in the Philippines.<br>
+									<b>Alternative Hypothesis: </b>The minimum wage is not enough to cover the cost of living in the Philippines. <br> <br>
+								
+								Given that the data shows that the Poverty Threshold is greater than and is rising at a faster rate than minimum wage. The Alternative hypothesis is taken to be true.</p>
 							</article>
 						</div>
 					</div>
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-					</footer>
 				</div>
 			</article>
 
@@ -172,13 +177,46 @@
 					</footer>
 				</div>
 			</article>
-
-		<!-- Team -->
+		
+		<!--Team -->
+		<article id="methods" class="wrapper style6">
+		<div class="container">
+			<header>
+				<h2>About the Researchers</h2>
+			</header>
+			<div class="row">
+				<div class="col-4 col-6-medium col-12-small">
+					<article class="box style3">
+						<img src="images/Juni.png" alt="" />
+						<h3>Juni Maca</h3>
+						<p>Hi! I'm Juni Maca and I'm a 2nd year BS Computer Science student at University of the Philippines - Diliman. I'm interested in programming, game development, IT, and in particular data science! I enjoy listening to K-Pop and binge-watching YouTube videos in my free time.</p>
+					</article>
+				</div>
+				<div class="col-4 col-6-medium col-12-small">
+					<article class="box style3">
+						<img src="images/Julian.png" alt="" />
+						<h3>Julian Yabut</h3>
+						<p>Hello! I'm Julian Yabut and I am a 2nd year UPD computer science major. I enjoy tinkering with gadgets which include my computer, speakers and any electronics I can get my hands on. Other than that, I like listening to music mostly local bands, and I enjoy playing bass as well.</p>
+					</article>
+				</div>
+				<div class="col-4 col-6-medium col-12-small">
+					<article class="box style3">
+						<img src="images/Bianca.png" alt="" />
+						<h3>Bianca Amurao</h3>
+						<p>Hello! I'm Bianca Amurao, a 2nd year BS Computer Science Student in UP Diliman. I like computers and I enjoy programming and web development. Away from the keyboard, I also like to dabble in art and design.</p>
+					</article>
+				</div>
+			</div>
+			<footer>
+				<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+			</footer>
+		</div>
+	</article>
+		<!-- Contact Info -->
 			<article id="team" class="wrapper style4">
 				<div class="container medium">
 					<header>
 						<h2>We'd like to hear from you.</h2>
-						<p>You can add more information about the team members here.</p>
 					</header>
 					<div class="row">
 						<div class="col-12">
@@ -211,10 +249,7 @@
 							<ul class="social">
 								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
 								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
 								<!--
 								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>

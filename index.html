@@ -52,7 +52,7 @@
 			</article>
 
 		<!-- Overview -->
-			<article id="overview" class="wrapper style5">
+			<article id="overview" class="wrapper style7">
 				<div class="container">
 					<header>
 						<h2>Here's an overview of our project.</h2>
@@ -137,11 +137,11 @@
 						</div>
 						<div class="col-9 col-6-medium col-12-small">
 							<article class="box style2">
-								<h3>Hypothesis Testing</h3>
+								<h3><a href="https://colab.research.google.com/drive/1kysyAlKfrIL8r_mzMQlfRE-n6lggQeAA?usp=sharing">Hypothesis Testing</a></h3>
 								<p><b>Null Hypothesis: </b>The minimum wage is enough to cover the cost of living in the Philippines.<br>
 									<b>Alternative Hypothesis: </b>The minimum wage is not enough to cover the cost of living in the Philippines. <br> <br>
 								
-								Given that the data shows that the Poverty Threshold is greater than and is rising at a faster rate than minimum wage. The Alternative hypothesis is taken to be true.</p>
+								Linear regression is used to get the slope of the poverty threshold and minimim wage through the years. The z-test is then used to test the equality of the two regressions. The z-score from the z-test is 22.9608 which indicates a very strong deviation from the null hypothesis; and the p-value is extremely small, indicating that the null hypothesis is unlikely to be true. </p>
 							</article>
 						</div>
 					</div>
@@ -153,24 +153,24 @@
 				<div class="container">
 					<header>
 						<h2>Here's what we found out.</h2>
-						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
 					</header>
-					<div class="row">
-						<div class="col-6 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="#">Results</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-6 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Results</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-					</div>
+						<h3>Results</h3>
+						<p>
+							The z-score of approximately 21.9608 is extremely high. This tells us the regression slopes of minimum wage and poverty threshold has a substantial difference. <br>
+
+							The p-value of approximately 3.4126x10<sup>-107</sup> is extremely small. This tells us the the probability of observing the result under the null hypothesis is extremely low and that there is great significance in their observed difference. <br>
+							
+							Because of this, the null hypothesis is rejected. The alternative hypothesis- The minimum wage is not enough to cover the cost of living in the Philippines, is taken to be true due to the values of the cost of living being extremely greater than that of the minimum wage.
+							<br>
+						</p>
+						<h3>Conclusion</h3>
+						<p>
+							The z-score of approximately 21.9608 is extremely high. This tells us the regression slopes of minimum wage and poverty threshold has a substantial difference. 
+
+							The p-value of approximately 3.4126x10<sup>-107</sup> is extremely small. This tells us the the probability of observing the result under the null hypothesis is extremely low and that there is great significance in their observed difference.
+							
+							Because of this, the null hypothesis is rejected. The alternative hypothesis- The minimum wage is not enough to cover the cost of living in the Philippines, is taken to be true due to the values of the cost of living being extremely greater than that of the minimum wage.
+						</p>
 					<footer>
 						<p>Want to learn more? Take a look at our source codes.</p>
 						<a href="https://github.com/baamurao/JuJuBee" class="button large scrolly">Github Repo</a>
@@ -243,28 +243,7 @@
 								</div>
 							</form>
 						</div>
-						<div class="col-12">
-							<hr />
-							<h3>Find me on ...</h3>
-							<ul class="social">
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<!--
-								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
-								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
-								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
-								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
-								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
-								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
-								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
-								-->
-							</ul>
-							<hr />
-						</div>
+						
 					</div>
 					<footer>
 						<ul id="copyright">

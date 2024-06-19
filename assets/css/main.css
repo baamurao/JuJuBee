@@ -2068,6 +2068,14 @@ input, select, textarea {
 				color: #FFFF
 				;
 			}
+		
+		.wrapper.style7 {
+			background-image: url("images/bg2.jpg");
+		}
+				.wrapper.style7 h3, .wrapper.style7 b {
+					color: #FFFF
+					;
+				}
 /* Nav */
 
 	#nav {
